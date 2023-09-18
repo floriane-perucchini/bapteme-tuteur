@@ -15,7 +15,7 @@ fetch('http://localhost:1234/deck') // pending
   .then (response => {
     // fullfilled
     // On attent grâce au `then` que la réponse arrive
-    // une fois arrivé 'reponse' contient la réponse du serveur 
+    // une fois arrivé 'response' contient la réponse du serveur 
     // Puis on peut utiliser cette réponse pour l'afficher, la partager
   })
   .catch(error => {
